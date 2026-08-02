@@ -36,12 +36,13 @@ proxies:
     server: engage.cloudflareclient.com
     port: 2408
     ip: 172.16.0.2/32
-    ipv6: "2606:4700:110:8b35:5cc8:cda6:ef4b:f975/128"
-    private-key: "f7OWsg2TTyijcUJWc16wr4MbYlriOAI01FIZWOhz1Yg="
+    ipv6: "2606:4700:110:8554:413b:e32:2eb9:4679/128"
+    private-key: "t+PmSMOPomWOj6dQT1urKRXxjEkc3Slk7vI+siPwXLE="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    reserved: "w9Ly"
+    reserved: "xlsy"
     udp: true
     mtu: 1280
+    amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس رایگان نوا @irnova_proxy nova-proxy.zeus-lcuv0bkj0srm.workers.dev:443 [VLESS]", server: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.79:2096 [VLESS]", server: 104.19.54.79, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
   - {name: "سرویس رایگان نوا @irnova_proxy 104.17.127.118:2087 [VLESS]", server: 104.17.127.118, port: 2087, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=143.110.169.110, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
@@ -295,6 +296,11 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [VLESS]
 rules:
+# SANCTION BYPASS RULES
+  - DOMAIN-SUFFIX,intel.com,DIRECT
+  - DOMAIN-SUFFIX,oracle.com,DIRECT
+  - DOMAIN-SUFFIX,docker.com,DIRECT
+  - DOMAIN-SUFFIX,android.com,DIRECT
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
   - GEOIP,IR,DIRECT,no-resolve
