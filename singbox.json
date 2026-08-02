@@ -1020,14 +1020,14 @@
       "server_port": 2408,
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8b35:5cc8:cda6:ef4b:f975/128"
+        "2606:4700:110:8554:413b:e32:2eb9:4679/128"
       ],
-      "private_key": "f7OWsg2TTyijcUJWc16wr4MbYlriOAI01FIZWOhz1Yg=",
+      "private_key": "t+PmSMOPomWOj6dQT1urKRXxjEkc3Slk7vI+siPwXLE=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
-        195,
-        210,
-        242
+        198,
+        91,
+        50
       ],
       "mtu": 1280
     }
@@ -1044,6 +1044,12 @@
         "outbound": "block",
         "rule_set": [
           "geosite-category-malware"
+        ]
+      },
+      {
+        "outbound": "direct",
+        "rule_set": [
+          "geosite-category-sanctioned-ir"
         ]
       },
       {
@@ -10547,6 +10553,12 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-sanctioned-ir",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-sanctioned-ir.srs"
       },
       {
         "type": "remote",
