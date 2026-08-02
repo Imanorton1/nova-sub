@@ -43,35 +43,49 @@ proxies:
     udp: true
     mtu: 1280
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
-  - {name: "سرویس رایگان نوا @irnova_proxy nova-proxy.zeus-lcuv0bkj0srm.workers.dev:443 [VLESS]", server: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.79:2096 [TROJAN]", server: 104.19.54.79, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.127.118:2087 [SS]", server: 104.17.127.118, port: 2087, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.110.165:2096 [VLESS]", server: 104.17.110.165, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.251.7:2053 [TROJAN]", server: 104.16.251.7, port: 2053, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.206:443 [SS]", server: 188.164.248.206, port: 443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.126.13:2083 [VLESS]", server: 104.17.126.13, port: 2083, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.146.27:8443 [TROJAN]", server: 104.19.146.27, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.58.241:2096 [SS]", server: 104.17.58.241, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.102:8443 [VLESS]", server: 91.193.58.102, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.219:8443 [TROJAN]", server: 8.39.125.219, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.221:2096 [SS]", server: 8.35.211.221, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.155.128:443 [VLESS]", server: 104.17.155.128, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.227:8443 [TROJAN]", server: 91.193.59.227, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.208.70:2083 [SS]", server: 198.41.208.70, port: 2083, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.140:2053 [VLESS]", server: 108.162.198.140, port: 2053, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.1.1:2096 [TROJAN]", server: 172.66.1.1, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.93:2096 [SS]", server: 104.18.1.93, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.171.126:2096 [VLESS]", server: 104.27.171.126, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.93:8443 [TROJAN]", server: 104.18.1.93, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.171.126:8443 [SS]", server: 104.27.171.126, port: 8443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.238.63:8443 [VLESS]", server: 162.159.238.63, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.192.160:2096 [TROJAN]", server: 104.27.192.160, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.238.63:2096 [SS]", server: 162.159.238.63, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]", server: 104.27.192.160, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]", server: 104.16.138.136, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]", server: 104.27.143.138, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/proxyip\\=143.110.169.110?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: true}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: true, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]", server: 104.18.1.1, port: 2053, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/proxyip=143.110.169.110?ed=2560", headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy nova-proxy.zeus-lcuv0bkj0srm.workers.dev:443 [VLESS]", server: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.54.79:2096 [TROJAN]", server: 104.19.54.79, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.127.118:2087 [SS]", server: 104.17.127.118, port: 2087, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.110.165:2096 [VLESS]", server: 104.17.110.165, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.251.7:2053 [TROJAN]", server: 104.16.251.7, port: 2053, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.206:443 [SS]", server: 188.164.248.206, port: 443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.126.13:2083 [VLESS]", server: 104.17.126.13, port: 2083, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.146.27:8443 [TROJAN]", server: 104.19.146.27, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.58.241:2096 [SS]", server: 104.17.58.241, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.102:8443 [VLESS]", server: 91.193.58.102, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.219:8443 [TROJAN]", server: 8.39.125.219, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.221:2096 [SS]", server: 8.35.211.221, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.155.128:443 [VLESS]", server: 104.17.155.128, port: 443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.227:8443 [TROJAN]", server: 91.193.59.227, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.208.70:2083 [SS]", server: 198.41.208.70, port: 2083, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 108.162.198.140:2053 [VLESS]", server: 108.162.198.140, port: 2053, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.1.1:2096 [TROJAN]", server: 172.66.1.1, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.93:2096 [SS]", server: 104.18.1.93, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.171.126:2096 [VLESS]", server: 104.27.171.126, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.1.93:8443 [TROJAN]", server: 104.18.1.93, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.171.126:8443 [SS]", server: 104.27.171.126, port: 8443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.238.63:8443 [VLESS]", server: 162.159.238.63, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.192.160:2096 [TROJAN]", server: 104.27.192.160, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.238.63:2096 [SS]", server: 162.159.238.63, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]", server: 104.27.192.160, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]", server: 104.16.138.136, port: 2096, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]", server: 104.27.143.138, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]", server: 104.25.105.177, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]", server: 104.18.222.66, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]", server: 104.21.31.175, port: 8443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]", server: 104.18.196.149, port: 8443, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]", server: 104.16.219.191, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]", server: 104.27.112.35, port: 8443, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]", server: 104.19.148.92, port: 2087, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]", server: 104.19.148.92, port: 2053, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]", server: 91.193.58.181, port: 2083, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]", server: 104.19.148.92, port: 2096, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]", server: 91.193.58.181, port: 2087, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]", server: 198.41.223.198, port: 2096, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]", server: 198.41.223.198, port: 2083, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]", server: 104.19.148.92, port: 8443, type: trojan, password: 421d5993-7025-439d-8ec2-9f777946c20e, sni: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]", server: 104.17.184.144, port: 2053, type: ss, cipher: aes-128-gcm, password: 421d5993-7025-439d-8ec2-9f777946c20e, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, path: "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]", server: 198.41.223.198, port: 2053, type: vless, uuid: 421d5993-7025-439d-8ec2-9f777946c20e, tls: true, skip-cert-verify: false, servername: nova-proxy.zeus-lcuv0bkj0srm.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY, headers: {Host: nova-proxy.zeus-lcuv0bkj0srm.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -109,8 +123,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,8 +172,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -178,8 +220,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -213,8 +269,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -267,8 +337,22 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -307,20 +391,23 @@ proxy-groups:
       - سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]
       - سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]
       - سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]
+      - سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]
 rules:
-# SANCTION BYPASS RULES
-  - DOMAIN-SUFFIX,intel.com,DIRECT
-  - DOMAIN-SUFFIX,oracle.com,DIRECT
-  - DOMAIN-SUFFIX,docker.com,DIRECT
-  - DOMAIN-SUFFIX,android.com,DIRECT
-# RUSSIA DIRECT RULES
-  - GEOSITE,ru,DIRECT
-  - GEOIP,RU,DIRECT
-# CHINA DIRECT RULES
-  - GEOSITE,cn,DIRECT
-  - GEOIP,CN,DIRECT
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
   - GEOIP,IR,DIRECT,no-resolve
