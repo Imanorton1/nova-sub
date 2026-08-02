@@ -1015,6 +1015,298 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+      "server": "188.114.96.168",
+      "server_port": 2096,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+      "server": "172.66.177.69",
+      "server_port": 2096,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+      "server": "188.114.96.168",
+      "server_port": 8443,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+      "server": "172.64.81.199",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+      "server": "172.66.177.69",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+      "server": "172.64.81.199",
+      "server_port": 2096,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+      "server": "104.17.50.77",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+      "server": "104.18.222.56",
+      "server_port": 2096,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+      "server": "104.17.50.77",
+      "server_port": 2096,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+      "server": "104.18.222.56",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+      "server": "172.66.211.193",
+      "server_port": 2096,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+      "server": "104.24.62.120",
+      "server_port": 2096,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+      "server": "104.24.62.120",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]",
+      "server": "172.66.211.193",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
@@ -1066,7 +1358,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
@@ -1115,7 +1421,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -1167,7 +1487,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
@@ -1216,7 +1550,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
@@ -1293,7 +1641,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
@@ -1350,7 +1712,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
@@ -1402,7 +1778,21 @@
         "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 188.114.96.168:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.177.69:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 172.64.81.199:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.50.77:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.56:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.24.62.120:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 172.66.211.193:8443 [SS]"
       ]
     },
     {
