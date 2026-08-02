@@ -116,7 +116,7 @@
       "server_port": 443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -125,7 +125,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -140,7 +140,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -148,7 +148,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -163,7 +163,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -179,7 +179,7 @@
       "server_port": 2096,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -188,7 +188,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -203,7 +203,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -211,7 +211,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -226,7 +226,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -242,7 +242,7 @@
       "server_port": 2083,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -251,7 +251,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -266,7 +266,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -274,7 +274,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -289,7 +289,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -305,7 +305,7 @@
       "server_port": 8443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -314,7 +314,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -329,7 +329,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -337,7 +337,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -352,7 +352,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -368,7 +368,7 @@
       "server_port": 443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -377,7 +377,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -392,7 +392,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -400,7 +400,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -415,7 +415,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -431,7 +431,7 @@
       "server_port": 2053,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -440,7 +440,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -455,7 +455,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -463,7 +463,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -478,7 +478,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -494,7 +494,7 @@
       "server_port": 2096,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -503,7 +503,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -518,7 +518,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -526,7 +526,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -541,7 +541,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -557,7 +557,7 @@
       "server_port": 8443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -566,7 +566,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -581,7 +581,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -589,7 +589,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -604,7 +604,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -620,7 +620,7 @@
       "server_port": 8443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -629,7 +629,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -644,7 +644,7 @@
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -652,7 +652,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -667,7 +667,7 @@
       "method": "aes-128-gcm",
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "plugin": "v2ray-plugin",
-      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/proxyip\\=143.110.169.110?enc\\=aes-128-gcm&ed\\=2560;tls",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
       "tls": {
         "enabled": true,
         "utls": {
@@ -678,12 +678,12 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-      "server": "104.18.1.1",
-      "server_port": 2053,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+      "server": "104.25.105.177",
+      "server_port": 8443,
       "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "type": "ws",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
@@ -692,7 +692,7 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -701,13 +701,13 @@
     },
     {
       "type": "trojan",
-      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]",
-      "server": "104.18.0.0",
-      "server_port": 443,
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+      "server": "104.18.222.66",
+      "server_port": 8443,
       "password": "421d5993-7025-439d-8ec2-9f777946c20e",
       "transport": {
         "type": "ws",
-        "path": "/proxyip=143.110.169.110?ed=2560",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
         "headers": {
           "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
         }
@@ -715,7 +715,299 @@
       "tls": {
         "enabled": true,
         "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
-        "insecure": true,
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+      "server": "104.21.31.175",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+      "server": "104.18.196.149",
+      "server_port": 8443,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+      "server": "104.16.219.191",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+      "server": "104.27.112.35",
+      "server_port": 8443,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+      "server": "104.19.148.92",
+      "server_port": 2087,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+      "server": "104.19.148.92",
+      "server_port": 2053,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+      "server": "91.193.58.181",
+      "server_port": 2083,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+      "server": "104.19.148.92",
+      "server_port": 2096,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+      "server": "91.193.58.181",
+      "server_port": 2087,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+      "server": "198.41.223.198",
+      "server_port": 2096,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+      "server": "198.41.223.198",
+      "server_port": 2083,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+      "server": "104.19.148.92",
+      "server_port": 8443,
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "type": "ws",
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+      "server": "104.17.184.144",
+      "server_port": 2053,
+      "method": "aes-128-gcm",
+      "password": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=nova-proxy.zeus-lcuv0bkj0srm.workers.dev;path=/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY?enc\\=aes-128-gcm;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]",
+      "server": "198.41.223.198",
+      "server_port": 2053,
+      "uuid": "421d5993-7025-439d-8ec2-9f777946c20e",
+      "transport": {
+        "path": "/video/TxBFHUVcGwkPRF9RXl4BERVGRVcWF1xMVAMVDRUIAA9NBAJLBQoHSgcNDREBFUBdR1kWCQhUFQgY",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-proxy.zeus-lcuv0bkj0srm.workers.dev",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -759,8 +1051,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -794,8 +1100,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -832,8 +1152,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -867,8 +1201,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -930,8 +1278,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -973,8 +1335,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -1011,8 +1387,22 @@
         "سرویس رایگان نوا @irnova_proxy 104.27.192.160:8443 [VLESS]",
         "سرویس رایگان نوا @irnova_proxy 104.16.138.136:2096 [TROJAN]",
         "سرویس رایگان نوا @irnova_proxy 104.27.143.138:2096 [SS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.1.1:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova_proxy 104.18.0.0:443 [TROJAN]"
+        "سرویس رایگان نوا @irnova_proxy 104.25.105.177:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.222.66:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.21.31.175:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.18.196.149:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.16.219.191:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.27.112.35:8443 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2087 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2083 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:2096 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 91.193.58.181:2087 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2096 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova_proxy 104.19.148.92:8443 [TROJAN]",
+        "سرویس رایگان نوا @irnova_proxy 104.17.184.144:2053 [SS]",
+        "سرویس رایگان نوا @irnova_proxy 198.41.223.198:2053 [VLESS]"
       ]
     },
     {
@@ -1050,54 +1440,6 @@
         "outbound": "block",
         "rule_set": [
           "geosite-category-malware"
-        ]
-      },
-      {
-        "outbound": "direct",
-        "rule_set": [
-          "geosite-category-sanctioned-ir"
-        ]
-      },
-      {
-        "outbound": "direct",
-        "rule_set": [
-          "geoip-ru",
-          "geosite-ru"
-        ],
-        "type": "logical",
-        "mode": "or",
-        "rules": [
-          {
-            "rule_set": [
-              "geoip-ru"
-            ]
-          },
-          {
-            "rule_set": [
-              "geosite-ru"
-            ]
-          }
-        ]
-      },
-      {
-        "outbound": "direct",
-        "rule_set": [
-          "geoip-cn",
-          "geosite-cn"
-        ],
-        "type": "logical",
-        "mode": "or",
-        "rules": [
-          {
-            "rule_set": [
-              "geoip-cn"
-            ]
-          },
-          {
-            "rule_set": [
-              "geosite-cn"
-            ]
-          }
         ]
       },
       {
@@ -10601,30 +10943,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-cn",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs"
-      },
-      {
-        "type": "remote",
-        "tag": "geoip-ru",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geoip-ru.srs"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-ru",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-ru.srs"
-      },
-      {
-        "type": "remote",
-        "tag": "geosite-category-sanctioned-ir",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-sanctioned-ir.srs"
       },
       {
         "type": "remote",
